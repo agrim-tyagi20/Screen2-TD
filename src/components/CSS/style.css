@@ -1,0 +1,746 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-nav {
+
+    width: 100%;
+    height: 8rem;
+
+    background-color: #f5f5f56e;
+}
+
+.nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    text-align: center;
+    height: 9rem;
+
+}
+
+.img_div {
+    position: relative;
+    left: 10rem;
+}
+
+img {
+    width: 16rem;
+}
+
+.elems_div {
+    display: flex;
+    position: relative;
+    right: 10rem;
+
+    gap: 3rem;
+
+}
+
+.elems_div .elems_h1_ass_cwm {
+    color: #8000804f;
+    font-size: 2rem;
+}
+
+.Profile_div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Profile_div .fa-user {
+    color: white;
+    padding: 4px 5px;
+    background-color: #800080;
+    border-radius: 50%;
+    font-size: 1.6rem;
+}
+
+.Profile_div h1 {
+    color: #800080;
+    font-size: 2rem;
+}
+
+.Profile_div .fa-chevron-down {
+    color: #800080;
+    font-size: 1.8rem;
+}
+
+.middle_container {
+
+    height: 92.5rem;
+
+    display: grid;
+    place-items: center;
+    
+    background-color: #f5f5f59e;
+}
+
+.subset_middle {
+
+    width: 78%;
+    height: 100%;
+  
+
+}
+.navigation_detail_div {
+    position: relative;
+    top: 4rem;
+}
+
+.navigation_detail_div p {
+    font-size: 1.6rem;
+ color: black;
+ font-weight: 500;
+}
+
+.referral_div_parent{
+    
+position: relative;
+top:10rem;
+height: 34rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 10rem;
+}
+
+
+.total_referral_wallet{
+width: 55rem;
+height: 22rem;
+   background-color: white;
+  
+   border-radius: 1.5rem;
+    
+}
+
+
+.inner_container_trw{
+   display: flex;
+   column-gap: 6.8rem;
+position: relative;
+top: 2rem;
+   justify-content: center;
+
+
+}
+
+.referral_earning_div p{
+    color:#800080;
+    font-size: 1.8rem;
+}
+
+
+.referral_earning_div h1{
+    font-size: 3rem;
+}
+
+.withdraw_div{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.withdraw_inner{
+   
+    width: 25rem;
+    padding: 6px 10px;
+    background-color: #800080;
+    border-radius: 2.6rem;
+}
+
+.withdraw_div p{
+font-size: 2.5rem;
+color: white;
+
+}
+
+.code_refer_2{
+    
+}
+
+.your_referral_code_div h3{
+    font-size: 3rem;
+    color: #800080;
+}
+
+
+
+.referal_code_value {
+
+    display: flex;
+    gap: 3rem;
+    position: relative;
+    top: 2rem;
+  
+    width: 35rem;
+    font-size: 1.8rem;
+   border: 1px solid #bd7fbd;
+   border-image: conic-gradient(#800080,#ff8a00) 1;
+    padding: 13px 17px;
+  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+
+}
+
+.referal_code_value span {
+    font-weight: bolder;
+    color: #800080;
+}
+
+
+.middle_deatils{
+   
+    position: relative;
+    top: 2rem;
+    height: 37rem;
+}
+
+.extra_detail_div{
+   
+    max-width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+.how_does_div{
+margin: 2rem 0;
+}
+
+.how_does_div h2{
+    font-size: 2rem;
+    color: #800080;
+}
+
+.icon_detail_div {
+    display: flex;
+    column-gap: 2rem;
+   
+   
+}
+
+.icon_detail_div .icons{
+
+    color:  #76487a;
+    padding: 18px 20px;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    background-color: #80808012;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff8a00 0%, #800080 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.icon_detail_div .rupe-icons{
+    color:  #76487a;
+    padding: 18px 22px;
+    display: flex;
+    font-size: 2.8rem;
+    align-items: center;
+    background-color: #80808012;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff8a00 0%, #800080 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.written_detail{
+    width: 23rem;
+}
+
+.written_detail p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.written_detail p:nth-child(2) {
+    font-size: 1.5rem;
+    color: grey;
+   
+
+}
+
+
+.frnd_who_enroll_t_c{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.7rem;
+
+    position: relative;
+    top: 7rem;
+}
+
+.frnd_who_enroll p{
+    font-size: 2rem;
+    color: #800080;
+    font-weight: 500;
+}
+
+.t_c_div p{
+    font-size: 2rem;
+    color: #800080;
+    font-weight: 500;
+}
+
+@media (max-width: 1141px) {
+   
+    .referal_code_value {
+
+        display: flex;
+
+       
+        width: 27rem;
+        font-size: 1.7rem;
+     
+      
+      
+    
+    }
+    
+    .your_referral_code_div h3{
+        font-size: 2.7rem;
+        color: #800080;
+    }
+    
+    .referral_div_parent{
+        
+    column-gap: 9rem;
+    }
+    
+
+
+}
+
+
+@media (max-width: 1141px) {
+    .total_referral_wallet{
+        width: 52rem;
+        height: 21rem;
+           
+            
+        }
+        
+        
+        .inner_container_trw{
+            display: flex;
+           column-gap: 6.6rem;
+        position: relative;
+        top: 2rem;
+       
+        
+        }
+
+       
+
+}
+
+@media (max-width: 1023px) {
+
+.withdraw_inner{
+    
+    width: 24rem;
+    padding: 6px 9px;
+   
+}
+
+.withdraw_div p{
+font-size: 2.2rem;
+
+
+}
+
+.referral_div_parent{
+    
+column-gap: 7.6rem;
+}
+}
+
+@media (max-width: 1000px) {
+    .total_referral_wallet{
+        width: 48.7rem;
+        height: 21rem;
+           
+            
+        }
+
+
+        .referal_code_value {
+
+           
+            width: 24.4rem;
+            font-size: 1.7rem;
+         
+            
+        
+        }
+        
+        .your_referral_code_div h3{
+            font-size: 2.6rem;
+            color: #800080;
+        }
+
+        
+
+}
+
+
+@media (max-width: 951px) {
+
+    .elems_div .elems_h1_ass_cwm {
+      display: none;
+    }
+    
+    .referral_div_parent{
+        display: grid;
+        grid-template-columns: 1fr;
+     
+        row-gap: 2rem;
+    }
+
+    .referal_code_value {
+
+           
+        width: 38rem;
+        font-size: 2.4rem;
+     
+        
+    
+    }
+    
+    
+    .middle_deatils{
+       
+        position: relative;
+        top: 13rem;
+        height: 37rem;
+    }
+
+    .frnd_who_enroll_t_c{
+        position: relative;
+        top: 15rem;
+    }
+
+
+}
+
+@media (max-width: 761px) {
+    .extra_detail_div{
+        
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        row-gap: 3rem;
+        column-gap: 2rem;
+    }
+
+    .middle_container {
+
+        height: 115rem;
+    }
+    .frnd_who_enroll_t_c{
+        position: relative;
+        top: 32rem;
+    }
+
+    .img_div {
+        position: relative;
+        left: 7rem;
+    }
+    
+    img {
+        width: 15rem;
+    }
+    
+    .elems_div {
+       
+        position: relative;
+        right: 7rem;
+    
+    
+    }
+
+
+}
+
+@media (max-width: 597px) {
+
+    .img_div {
+        position: relative;
+        left: 5rem;
+    }
+    
+    img {
+        width: 14rem;
+    }
+    
+    .elems_div {
+       
+        position: relative;
+        right: 5rem;
+    
+    
+    }
+
+    .Profile_div .fa-user {
+       
+       
+        font-size: 1.5rem;
+    }
+    
+    .Profile_div h1 {
+      
+        font-size: 1.9rem;
+    }
+    
+    .Profile_div .fa-chevron-down {
+       
+        font-size: 1.8rem;
+    }
+
+
+}
+
+
+@media (max-width: 580px) {
+
+    .total_referral_wallet{
+        width: 47rem;
+        height: 20rem;
+           
+            
+        }
+        .referral_earning_div p{
+            color:#800080;
+            font-size: 1.7rem;
+        }
+        
+        
+        .referral_earning_div h1{
+            font-size: 2.9rem;
+        }
+
+        .inner_container_trw{
+            display: flex;
+            column-gap: 5.6rem;
+         
+         
+         }
+      
+
+}
+
+@media (max-width: 549px) {
+
+    .total_referral_wallet{
+        width: 45rem;
+        height: 20rem;
+           
+            
+        }
+        
+
+}
+
+@media (max-width: 539px) {
+
+    .total_referral_wallet{
+        width: 44rem;
+        height: 19.6rem;
+           
+            
+        }
+
+        .referral_earning_div p{
+            color:#800080;
+            font-size: 1.6rem;
+        }
+        
+        
+
+}
+@media (max-width: 524px) {
+    .inner_container_trw{
+        display: flex;
+        column-gap: 5.0rem;
+     
+     
+     }
+
+     .total_referral_wallet{
+        width: 43rem;
+        height: 19.6rem;
+           
+            
+        }
+}
+
+@media (max-width: 509px) {
+    .inner_container_trw{
+        display: flex;
+        column-gap: 4.5rem;
+     
+     
+     }
+     .total_referral_wallet{
+        width: 41rem;
+        height: 19.6rem;
+           
+            
+        }
+
+    }
+    @media (max-width: 490px) {
+        .img_div {
+            position: relative;
+            left: 3rem;
+        }
+        
+        img {
+            width: 14rem;
+        }
+        
+        .elems_div {
+           
+            position: relative;
+            right: 3rem;
+        
+        
+        }
+        .total_referral_wallet{
+            width: 40rem;
+            height: 19.6rem;
+               
+                
+            }
+
+            .referral_earning_div p{
+                color:#800080;
+                font-size: 1.5rem;
+            }
+
+    }
+
+    @media (max-width: 461px) {
+
+        .total_referral_wallet{
+            width: 38rem;
+            height: 19.6rem;
+               
+                
+            }
+            .inner_container_trw{
+                display: flex;
+                column-gap: 3.5rem;
+             
+             
+             }
+
+              
+        .referral_earning_div h1{
+            font-size: 2.8rem;
+        }
+    }
+
+    @media (max-width: 451px) {
+
+        .total_referral_wallet{
+            width: 36rem;
+            height: 19.6rem;
+               
+                
+            }
+            .inner_container_trw{
+                display: flex;
+                column-gap: 3.0rem;
+             
+             
+             }
+
+              
+        .referral_earning_div h1{
+            font-size: 2.8rem;
+        }
+
+        .referal_code_value {
+
+           
+            width: 35rem;
+            font-size: 2.3rem;
+         
+            
+        
+        }
+    }
+
+    @media (max-width: 428px) {
+
+        .total_referral_wallet{
+            width: 35rem;
+            height: 19.6rem;
+               
+                
+            }
+
+            .inner_container_trw{
+                display: flex;
+                column-gap: 2rem;
+             
+             
+             }
+
+             .img_div {
+                position: relative;
+                left: 1.8rem;
+            }
+            
+            img {
+                width: 14rem;
+            }
+            
+            .elems_div {
+               
+                position: relative;
+                right: 1.8rem;
+            
+            
+            }
+
+
+        }
+
+        @media (max-width: 417px) {
+
+            .total_referral_wallet{
+                width: 33.6rem;
+                height: 19.6rem;
+                   
+                    
+                }
+                .referral_earning_div h1{
+                    font-size: 2.7rem;
+                }
+
+            }
