@@ -239,32 +239,31 @@ margin: 2rem 0;
 
 .icon_detail_div .icons{
 
-    color:  #76487a;
-    padding: 18px 20px;
+    
+   
     display: flex;
     font-size: 2rem;
     align-items: center;
-    background-color: #80808012;
-    border-radius: 50%;
-    background: linear-gradient(to right, #ff8a00 0%, #800080 100%);
 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+   
+  padding: 18px 20px;
+  background-color: #80808012;
+  color:#800080;
+
     
 }
 
 .icon_detail_div .rupe-icons{
-    color:  #76487a;
+    color:#800080;
     padding: 18px 22px;
     display: flex;
     font-size: 2.8rem;
     align-items: center;
-    background-color: #80808012;
+  
     border-radius: 50%;
-    background: linear-gradient(to right, #ff8a00 0%, #800080 100%);
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+   
+  background-color: #ad959512;
 }
 
 .written_detail{
